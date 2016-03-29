@@ -17,6 +17,7 @@
 		2E066C551CAA513D005A6B4F /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E066C521CAA513D005A6B4F /* String-Extras.swift */; };
 		2E066C5B1CAA5499005A6B4F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E066C5A1CAA5499005A6B4F /* MainViewController.swift */; };
 		2EF8772B1CAA699800333E56 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 2EF8772A1CAA699800333E56 /* data.db */; };
+		2EF8772F1CAAB79600333E56 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF8772E1CAAB79600333E56 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		2E066C521CAA513D005A6B4F /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
 		2E066C5A1CAA5499005A6B4F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2EF8772A1CAA699800333E56 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		2EF8772E1CAAB79600333E56 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				2E066C591CAA52AB005A6B4F /* SQLiteDB */,
 				2E066C3C1CAA4BD5005A6B4F /* Main.storyboard */,
 				2E066C381CAA4BD4005A6B4F /* AppDelegate.swift */,
+				2EF8772E1CAAB79600333E56 /* User.swift */,
 				2E066C5A1CAA5499005A6B4F /* MainViewController.swift */,
 				2E066C3F1CAA4BD5005A6B4F /* Assets.xcassets */,
 				2EF8772A1CAA699800333E56 /* data.db */,
@@ -164,6 +167,7 @@
 			files = (
 				2E066C551CAA513D005A6B4F /* String-Extras.swift in Sources */,
 				2E066C531CAA513D005A6B4F /* SQLiteDB.swift in Sources */,
+				2EF8772F1CAAB79600333E56 /* User.swift in Sources */,
 				2E066C541CAA513D005A6B4F /* SQLTable.swift in Sources */,
 				2E066C391CAA4BD4005A6B4F /* AppDelegate.swift in Sources */,
 				2E066C5B1CAA5499005A6B4F /* MainViewController.swift in Sources */,
