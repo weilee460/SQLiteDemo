@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SQLiteDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuC-2x-Iqk">
+                                <rect key="frame" x="20" y="28" width="80" height="24.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Of8-8s-TXi">
+                                <rect key="frame" x="20" y="60" width="80" height="30.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1LA-Yc-Gd8">
+                                <rect key="frame" x="108" y="28" width="472" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ah8-SG-UyE">
+                                <rect key="frame" x="108" y="66" width="472" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCh-gS-izJ">
+                                <rect key="frame" x="283" y="104" width="34" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="保存"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="Of8-8s-TXi" secondAttribute="leading" id="1mx-vV-VHb"/>
+                            <constraint firstItem="1LA-Yc-Gd8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="5kL-j5-4cF"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="tuC-2x-Iqk" secondAttribute="leading" id="5yk-ch-s5L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1LA-Yc-Gd8" secondAttribute="trailing" id="EuK-wM-pDr"/>
+                            <constraint firstItem="1LA-Yc-Gd8" firstAttribute="leading" secondItem="tuC-2x-Iqk" secondAttribute="trailing" constant="8" symbolic="YES" id="HEB-e5-yRV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ah8-SG-UyE" secondAttribute="trailing" id="bKa-aA-ZdI"/>
+                            <constraint firstItem="oCh-gS-izJ" firstAttribute="top" secondItem="ah8-SG-UyE" secondAttribute="bottom" constant="8" symbolic="YES" id="byl-64-j7W"/>
+                            <constraint firstItem="tuC-2x-Iqk" firstAttribute="baseline" secondItem="1LA-Yc-Gd8" secondAttribute="baseline" id="d6m-ZS-hf2"/>
+                            <constraint firstItem="Of8-8s-TXi" firstAttribute="top" secondItem="tuC-2x-Iqk" secondAttribute="bottom" constant="8" symbolic="YES" id="hDC-qz-kfK"/>
+                            <constraint firstItem="tuC-2x-Iqk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="lVJ-AI-nev"/>
+                            <constraint firstItem="Of8-8s-TXi" firstAttribute="baseline" secondItem="ah8-SG-UyE" secondAttribute="baseline" id="pbM-ik-3Ji"/>
+                            <constraint firstItem="ah8-SG-UyE" firstAttribute="leading" secondItem="Of8-8s-TXi" secondAttribute="trailing" constant="8" symbolic="YES" id="tkh-kc-wye"/>
+                            <constraint firstItem="ah8-SG-UyE" firstAttribute="top" secondItem="1LA-Yc-Gd8" secondAttribute="bottom" constant="8" symbolic="YES" id="uBi-Ei-yVq"/>
+                            <constraint firstItem="oCh-gS-izJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yxn-Vw-9gw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="436"/>
+        </scene>
+    </scenes>
+</document>
